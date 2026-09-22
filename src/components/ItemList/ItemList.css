@@ -1,0 +1,8 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));   /* 2 columnas iguales */
+  gap: 1.5rem;
+  padding: 1rem;
+  justify-items: center;                    /* Centra las cards */
+  margin: 10px;                          /* Centra el contenedor */
+}
