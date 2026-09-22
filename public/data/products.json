@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Codo Termofusión 90° x 20mm",
+    "description": "Codo a 90 grados de polipropileno copolímero random (PPR) color verde para agua fría y caliente. Fabricado según norma IRAM 13474. Resistente a presiones de hasta 20 bar y temperaturas de hasta 95°C. Ideal para instalaciones sanitarias domiciliarias.",
+    "price": 1450,
+    "image": "/img/termofusion/agua/codo-90-20mm-verde.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 2,
+    "name": "Tee Termofusión 25mm",
+    "description": "Conexión en T de polipropileno copolímero random (PPR) color verde para derivaciones de agua. Triple unión por termofusión. Fabricada bajo normas IRAM para garantizar sellado hermético y larga vida útil en instalaciones de agua potable.",
+    "price": 2200,
+    "image": "/img/termofusion/agua/tee-25mm-verde.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 3,
+    "name": "Cupla Termofusión 32mm x 1\"",
+    "description": "Cupla mixta de termofusión con inserción metálica roscada hembra de 1 pulgada. Cuerpo de polipropileno copolímero random (PPR) color verde. Permite la unión de cañerías de polipropileno con sistemas roscados de metal. Apta para agua caliente y fría.",
+    "price": 3800,
+    "image": "/img/termofusion/agua/cupla-mixta-32-rosca-hembra.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 4,
+    "name": "Llave de Paso Termofusión 20mm",
+    "description": "Válvula de corte de bola para sistemas de termofusión de 20mm. Cuerpo de polipropileno copolímero random (PPR) color verde con bola de bronce. Apertura y cierre rápido mediante palanca. Ideal para corte de agua en instalaciones sanitarias.",
+    "price": 2900,
+    "image": "/img/termofusion/agua/llave-paso-20mm-verde.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 5,
+    "name": "Cupla Termofusión 20mm",
+    "description": "Cupla de unión directa de polipropileno copolímero random (PPR) color verde de 20mm. Para empalme de cañerías de termofusión. Resistente a altas presiones y temperaturas. Fabricada bajo norma IRAM 13474.",
+    "price": 950,
+    "image": "/img/termofusion/agua/cupla-20mm-verde.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 6,
+    "name": "Codo Termofusión 90° con Rosca Macho 20mm x 1/2\"",
+    "description": "Codo a 90 grados de termofusión con inserción metálica rosca macho de 1/2 pulgada. Cuerpo de polipropileno copolímero random (PPR) color verde. Para conexión de cañería de termofusión a artefactos sanitarios o griferías.",
+    "price": 2100,
+    "image": "/img/termofusion/agua/codo-90-rosca-macho-20mm.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 7,
+    "name": "Tee Termofusión Reducción 25mm x 20mm",
+    "description": "Tee de reducción de polipropileno copolímero random (PPR) color verde. Entrada principal de 25mm y derivación de 20mm. Para empalmes y derivaciones en instalaciones de agua fría y caliente.",
+    "price": 2500,
+    "image": "/img/termofusion/agua/tee-reduccion-25-20mm.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 8,
+    "name": "Tapón Termofusión 20mm",
+    "description": "Tapón de cierre de polipropileno copolímero random (PPR) color verde de 20mm. Para obturar extremos de cañerías o conexiones de termofusión. Fabricado según norma IRAM.",
+    "price": 700,
+    "image": "/img/termofusion/agua/tapon-20mm-verde.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 9,
+    "name": "Cupla Termofusión 25mm x 3/4\"",
+    "description": "Cupla mixta de termofusión con inserción metálica rosca hembra de 3/4 pulgada. Cuerpo de polipropileno copolímero random (PPR) color verde. Unión de cañería de polipropileno a rosca metálica. Apta para agua caliente y fría.",
+    "price": 3400,
+    "image": "/img/termofusion/agua/cupla-mixta-25-rosca-hembra.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 10,
+    "name": "Codo Termofusión 45° x 20mm",
+    "description": "Codo a 45 grados de polipropileno copolímero random (PPR) color verde de 20mm. Para cambios de dirección en cañerías de termofusión. Resistente a presión y temperatura. Norma IRAM 13474.",
+    "price": 1600,
+    "image": "/img/termofusion/agua/codo-45-20mm-verde.jpg",
+    "category": "termofusion",
+    "subcategory": "agua"
+  },
+  {
+    "id": 11,
+    "name": "Codo Termofusión 90° x 20mm para Gas",
+    "description": "Codo a 90 grados de polipropileno copolímero para gas (PPR-G) color amarillo de 20mm. Diseñado específicamente para instalaciones de gas natural o envasado. Resistente a la corrosión y a los componentes del gas. Norma IRAM 13474 para gas.",
+    "price": 1850,
+    "image": "/img/termofusion/gas/codo-90-20mm-amarillo.jpg",
+    "category": "termofusion",
+    "subcategory": "gas"
+  },
+  {
+    "id": 12,
+    "name": "Tee Termofusión 25mm para Gas",
+    "description": "Conexión en T de polipropileno copolímero para gas (PPR-G) color amarillo de 25mm. Para derivaciones en instalaciones de gas. Fabricada bajo estrictas normas de seguridad para garantizar hermeticidad total.",
+    "price": 2700,
+    "image": "/img/termofusion/gas/tee-25mm-amarillo.jpg",
+    "category": "termofusion",
+    "subcategory": "gas"
+  },
+  {
+    "id": 13,
+    "name": "Cupla Termofusión 20mm para Gas",
+    "description": "Cupla de unión directa de polipropileno copolímero para gas (PPR-G) color amarillo de 20mm. Para empalme de cañerías de termofusión de gas. Resistente a presiones de red y a la intemperie.",
+    "price": 1100,
+    "image": "/img/termofusion/gas/cupla-20mm-amarillo.jpg",
+    "category": "termofusion",
+    "subcategory": "gas"
+  },
+  {
+    "id": 14,
+    "name": "Llave de Paso Termofusión 20mm para Gas",
+    "description": "Válvula de corte de bola para sistemas de termofusión de gas de 20mm. Cuerpo de polipropileno copolímero para gas (PPR-G) color amarillo con bola de bronce. Apertura y cierre rápido. Diseño seguro para instalaciones de gas.",
+    "price": 3400,
+    "image": "/img/termofusion/gas/llave-paso-20mm-amarillo.jpg",
+    "category": "termofusion",
+    "subcategory": "gas"
+  },
+  {
+    "id": 15,
+    "name": "Cupla Mixta Termofusión Gas 20mm x 1/2\"",
+    "description": "Cupla mixta de termofusión para gas con inserción metálica rosca macho de 1/2 pulgada. Cuerpo de polipropileno copolímero para gas (PPR-G) color amarillo. Para conexión de cañería de termofusión a medidores o artefactos de gas.",
+    "price": 2600,
+    "image": "/img/termofusion/gas/cupla-mixta-20-rosca-macho.jpg",
+    "category": "termofusion",
+    "subcategory": "gas"
+  },
+  {
+    "id": 16,
+    "name": "Codo Termofusión 45° x 20mm para Gas",
+    "description": "Codo a 45 grados de polipropileno copolímero para gas (PPR-G) color amarillo de 20mm. Para cambios de dirección en cañerías de termofusión de gas. Fabricado bajo norma IRAM 13474 para gas.",
+    "price": 1950,
+    "image": "/img/termofusion/gas/codo-45-20mm-amarillo.jpg",
+    "category": "termofusion",
+    "subcategory": "gas"
+  },
+  {
+    "id": 17,
+    "name": "Conexión Recta Metálica Neumática 8mm x 1/4\"",
+    "description": "Conector recto metálico con rosca macho de 1/4 pulgada y salida rápida para manguera de 8mm. Cuerpo de latón niquelado con anillo de liberación azul. Para sistemas de aire comprimido. Presión de trabajo hasta 10 bar.",
+    "price": 850,
+    "image": "/img/neumatica/conexion-recta-metalica-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 18,
+    "name": "Codo Metálico 90° Neumático 8mm x 1/4\"",
+    "description": "Codo a 90 grados metálico con rosca macho de 1/4 pulgada y conexión rápida para manguera de 8mm. Cuerpo de latón niquelado con anillo de liberación azul. Ideal para espacios reducidos en tableros neumáticos.",
+    "price": 1200,
+    "image": "/img/neumatica/codo-metalico-90-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 19,
+    "name": "Codo Metálico 45° Neumático 8mm x 1/4\"",
+    "description": "Codo a 45 grados metálico con rosca macho de 1/4 pulgada y conexión rápida para manguera de 8mm. Cuerpo de latón niquelado con anillo de liberación azul. Para direccionamiento de aire comprimido.",
+    "price": 1250,
+    "image": "/img/neumatica/codo-metalico-45-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 20,
+    "name": "Conector Metálico Hembra Neumático 8mm x 1/4\"",
+    "description": "Conector metálico con rosca hembra de 1/4 pulgada y salida rápida para manguera de 8mm. Cuerpo de latón niquelado. Para conexión de mangueras neumáticas a componentes con rosca macho.",
+    "price": 1100,
+    "image": "/img/neumatica/conector-metalico-hembra-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 21,
+    "name": "Unión Recta Neumática 8mm",
+    "description": "Conector recto de unión rápida para manguera neumática de 8mm. Cuerpo de polímero técnico negro con anillo de liberación azul. Para empalme de dos tramos de manguera. Presión de trabajo hasta 10 bar.",
+    "price": 650,
+    "image": "/img/neumatica/union-recta-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 22,
+    "name": "Reducción Unión Neumática 10mm x 8mm",
+    "description": "Conector de reducción recto para unir manguera neumática de 10mm con manguera de 8mm. Cuerpo de polímero técnico negro con anillo de liberación azul. Para adaptar diferentes diámetros en líneas de aire.",
+    "price": 780,
+    "image": "/img/neumatica/reduccion-union-10-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 23,
+    "name": "Codo Unión 90° Neumático 8mm",
+    "description": "Codo de unión rápida a 90 grados para manguera neumática de 8mm. Cuerpo de polímero técnico negro con anillo de liberación azul. Para cambios de dirección en instalaciones de aire comprimido.",
+    "price": 920,
+    "image": "/img/neumatica/codo-union-90-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 24,
+    "name": "Tee Unión Neumática 8mm",
+    "description": "Conexión en T de unión rápida para manguera neumática de 8mm. Triple salida. Cuerpo de polímero técnico negro con anillos de liberación azules. Para derivaciones en líneas de aire comprimido.",
+    "price": 1050,
+    "image": "/img/neumatica/tee-union-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 25,
+    "name": "Tee Unión Metálica Central Neumática 8mm",
+    "description": "Conexión en T metálica con rosca central y uniones rápidas para manguera de 8mm. Cuerpo de latón niquelado con anillos de liberación azules. Para derivaciones con conexión roscada central.",
+    "price": 1850,
+    "image": "/img/neumatica/tee-union-metalica-central-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 26,
+    "name": "Regulador de Caudal Neumático 8mm",
+    "description": "Válvula reguladora de caudal unidireccional para manguera neumática de 8mm. Cuerpo de polímero técnico negro con perilla de ajuste. Permite controlar la velocidad de cilindros neumáticos.",
+    "price": 3500,
+    "image": "/img/neumatica/regulador-caudal-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 27,
+    "name": "Tee Unión Metálica Costado Neumática 8mm",
+    "description": "Conexión en T metálica con rosca lateral y uniones rápidas para manguera de 8mm. Cuerpo de latón niquelado con anillos de liberación azules. Para derivaciones con conexión roscada lateral.",
+    "price": 1750,
+    "image": "/img/neumatica/tee-union-metalica-costado-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 28,
+    "name": "Codo Hembra Metálico Neumático 8mm x 1/4\"",
+    "description": "Codo a 90 grados metálico con rosca hembra de 1/4 pulgada y conexión rápida para manguera de 8mm. Cuerpo de latón niquelado con anillo de liberación azul. Para conexión de mangueras a componentes con rosca macho.",
+    "price": 1500,
+    "image": "/img/neumatica/codo-hembra-metalico-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 29,
+    "name": "Pasamuro Neumático 8mm x 1/4\"",
+    "description": "Conector pasamuro con rosca macho de 1/4 pulgada y conexión rápida para manguera de 8mm. Cuerpo de latón niquelado. Para fijación de mangueras neumáticas a través de paneles o tableros.",
+    "price": 1350,
+    "image": "/img/neumatica/pasamuro-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 30,
+    "name": "Regulador de Caudal 90° Neumático 8mm",
+    "description": "Válvula reguladora de caudal a 90 grados para manguera neumática de 8mm. Cuerpo de polímero técnico negro con perilla de ajuste. Para control de velocidad en cilindros neumáticos con espacio reducido.",
+    "price": 3800,
+    "image": "/img/neumatica/regulador-caudal-90-8mm.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 31,
+    "name": "Bloque Distribuidor Neumático 4 Salidas 8mm",
+    "description": "Múltiple distribuidor de aire con 4 salidas rápidas para manguera de 8mm y 1 entrada. Cuerpo de polímero técnico negro con anillos de liberación azules. Ideal para organizar y dividir líneas neumáticas en tableros de control.",
+    "price": 5600,
+    "image": "/img/neumatica/bloque-distribuidor-4-salidas.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 32,
+    "name": "Silenciador Neumático 1/4\"",
+    "description": "Silenciador de escape de latón sinterizado con rosca macho de 1/4 pulgada. Reduce significativamente el ruido del aire comprimido en válvulas y actuadores. Para sistemas neumáticos.",
+    "price": 600,
+    "image": "/img/neumatica/silenciador-1-4.jpg",
+    "category": "neumatica"
+  },
+  {
+    "id": 33,
+    "name": "Silenciador con Regulador Neumático 1/4\"",
+    "description": "Silenciador de escape de latón sinterizado con rosca macho de 1/4 pulgada y regulador de caudal incorporado. Permite ajustar el escape de aire y reducir el ruido en sistemas neumáticos.",
+    "price": 1200,
+    "image": "/img/neumatica/silenciador-con-regulador-1-4.jpg",
+    "category": "neumatica"
+  }
+]
