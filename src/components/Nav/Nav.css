@@ -1,31 +1,50 @@
-.nav-list {
-  list-style: none;
-
+/* Nav.css */
+.nav-container {
   display: flex;
-  justify-content: center;
-}
-.nav-list li {
-  font-size: 2rem;
-  margin: 0.5rem;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.incart {
-  background-color: red;
-  font-size: 1rem;
-  border-radius: 50%;
-
-  width: 20px;
-  height: 20px;
-
-  display: inline-flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  vertical-align: top;
-  font-size: 12px;
-  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  align-items: center;
+}
+
+/* Animación sutil para los enlaces del Nav */
+.nav-item a {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  position: relative;
+  transition:
+    color 0.3s ease,
+    transform 0.2s ease;
+}
+
+/* Efecto de elevación al pasar el mouse */
+.nav-item a:hover {
+  color: var(--primary);
+  transform: translateY(-2px); /* Se eleva levemente */
+}
+
+/* Línea animada inferior tipo subrayado moderno */
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--primary);
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-item a:hover::after {
+  width: 100%; /* La línea crece de izquierda a derecha */
 }

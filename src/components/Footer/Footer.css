@@ -1,29 +1,65 @@
-footer {
-  margin-top: 4rem;
-
-  background: var(--surface);
+.footer-container {
+  background-color: var(--surface);
   border-top: 1px solid var(--border);
+  padding: 1.2rem 2rem;
+  margin-top: auto;
+}
 
-  padding: 1.5rem 3rem;
-
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-footer p {
+.footer-text {
+  font-size: 0.85rem;
   color: var(--text-secondary);
 }
 
-footer .nav-list {
+/* Estilo de la barra de navegación del footer */
+.footer-nav-list {
+  display: flex;
   gap: 1.5rem;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
-footer li {
-  transition: 0.25s;
-  cursor: pointer;
+.footer-nav-item a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-footer li:hover {
+.footer-nav-item a:hover {
   color: var(--primary);
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) saturate(100%) invert(85%) sepia(10%) saturate(300%)
+    hue-rotate(180deg);
+}
+
+/* Color verde oficial para el ícono de WhatsApp */
+.whatsapp-color {
+  filter: brightness(0) saturate(100%) invert(53%) sepia(87%) saturate(452%)
+    hue-rotate(85deg) brightness(97%) contrast(92%);
+}
+
+/* El de Instagram mantiene su color natural o se adapta bien */
+.instagram-color {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(89%) saturate(1637%)
+    hue-rotate(307deg) brightness(99%) contrast(98%);
 }

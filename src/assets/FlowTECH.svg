@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 210 60"
+   width="210"
+   height="60"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="FlowTECH.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.8325851"
+     inkscape:cx="120.049"
+     inkscape:cy="55.386242"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="flowGrad"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0%"
+         stop-color="#52b788"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#3a86ff"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <!-- Isotipo minimalista: Dos ondas entrelazadas finas (Termofusión y Neumática) -->
+  <path
+     d="m 3.434388,39.494373 q 11.722281,-34.0880953 23.444563,-8.522024 11.722281,25.566071 23.444562,0"
+     fill="none"
+     stroke="#52b788"
+     stroke-width="4.24047"
+     stroke-linecap="round"
+     id="path2" />
+  <path
+     d="m 15.156669,39.494373 q 11.722282,-34.0880953 23.444563,-8.522024 11.722281,25.566071 23.444563,0"
+     fill="none"
+     stroke="#3a86ff"
+     stroke-width="4.24047"
+     stroke-linecap="round"
+     opacity="0.8"
+     id="path3" />
+  <!-- Círculo de conexión sutil -->
+  <ellipse
+     cx="32.740089"
+     cy="30.972351"
+     fill="#f4a261"
+     id="circle3"
+     rx="3.5166843"
+     ry="5.113214"
+     style="stroke-width:1.41349" />
+  <!-- Texto elegante y limpio -->
+  <text
+     x="93.19104"
+     y="35.580269"
+     font-family="system-ui, '-apple-system', sans-serif"
+     font-size="31.0968px"
+     font-weight="600"
+     fill="#f4f4f4"
+     letter-spacing="0.5"
+     id="text3"
+     transform="scale(0.82931536,1.2058139)"
+     style="stroke-width:1.41349">FLOW<tspan
+   fill="url(#flowGrad)"
+   id="tspan3"
+   style="stroke-width:1.41349">TECH</tspan></text>
+</svg>
