@@ -5,8 +5,8 @@
     "description": "Codo a 90 grados de polipropileno copolímero random (PPR) color verde para agua fría y caliente. Fabricado según norma IRAM 13474. Resistente a presiones de hasta 20 bar y temperaturas de hasta 95°C. Ideal para instalaciones sanitarias domiciliarias.",
     "price": 1450,
     "image": "/img/termofusion/agua/codo-90-20mm-verde.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "description": "Conexión en T de polipropileno copolímero random (PPR) color verde para derivaciones de agua. Triple unión por termofusión. Fabricada bajo normas IRAM para garantizar sellado hermético y larga vida útil en instalaciones de agua potable.",
     "price": 2200,
     "image": "/img/termofusion/agua/tee-25mm-verde.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 3,
@@ -23,8 +23,8 @@
     "description": "Cupla mixta de termofusión con inserción metálica roscada hembra de 1 pulgada. Cuerpo de polipropileno copolímero random (PPR) color verde. Permite la unión de cañerías de polipropileno con sistemas roscados de metal. Apta para agua caliente y fría.",
     "price": 3800,
     "image": "/img/termofusion/agua/cupla-mixta-32-rosca-hembra.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 4,
@@ -32,8 +32,8 @@
     "description": "Válvula de corte de bola para sistemas de termofusión de 20mm. Cuerpo de polipropileno copolímero random (PPR) color verde con bola de bronce. Apertura y cierre rápido mediante palanca. Ideal para corte de agua en instalaciones sanitarias.",
     "price": 2900,
     "image": "/img/termofusion/agua/llave-paso-20mm-verde.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 5,
@@ -41,8 +41,8 @@
     "description": "Cupla de unión directa de polipropileno copolímero random (PPR) color verde de 20mm. Para empalme de cañerías de termofusión. Resistente a altas presiones y temperaturas. Fabricada bajo norma IRAM 13474.",
     "price": 950,
     "image": "/img/termofusion/agua/cupla-20mm-verde.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 6,
@@ -50,8 +50,8 @@
     "description": "Codo a 90 grados de termofusión con inserción metálica rosca macho de 1/2 pulgada. Cuerpo de polipropileno copolímero random (PPR) color verde. Para conexión de cañería de termofusión a artefactos sanitarios o griferías.",
     "price": 2100,
     "image": "/img/termofusion/agua/codo-90-rosca-macho-20mm.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 7,
@@ -59,8 +59,8 @@
     "description": "Tee de reducción de polipropileno copolímero random (PPR) color verde. Entrada principal de 25mm y derivación de 20mm. Para empalmes y derivaciones en instalaciones de agua fría y caliente.",
     "price": 2500,
     "image": "/img/termofusion/agua/tee-reduccion-25-20mm.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 8,
@@ -68,8 +68,8 @@
     "description": "Tapón de cierre de polipropileno copolímero random (PPR) color verde de 20mm. Para obturar extremos de cañerías o conexiones de termofusión. Fabricado según norma IRAM.",
     "price": 700,
     "image": "/img/termofusion/agua/tapon-20mm-verde.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 9,
@@ -77,8 +77,8 @@
     "description": "Cupla mixta de termofusión con inserción metálica rosca hembra de 3/4 pulgada. Cuerpo de polipropileno copolímero random (PPR) color verde. Unión de cañería de polipropileno a rosca metálica. Apta para agua caliente y fría.",
     "price": 3400,
     "image": "/img/termofusion/agua/cupla-mixta-25-rosca-hembra.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 10,
@@ -86,8 +86,8 @@
     "description": "Codo a 45 grados de polipropileno copolímero random (PPR) color verde de 20mm. Para cambios de dirección en cañerías de termofusión. Resistente a presión y temperatura. Norma IRAM 13474.",
     "price": 1600,
     "image": "/img/termofusion/agua/codo-45-20mm-verde.jpg",
-    "category": "termofusion",
-    "subcategory": "agua"
+    
+    "category": "agua"
   },
   {
     "id": 11,
@@ -95,8 +95,8 @@
     "description": "Codo a 90 grados de polipropileno copolímero para gas (PPR-G) color amarillo de 20mm. Diseñado específicamente para instalaciones de gas natural o envasado. Resistente a la corrosión y a los componentes del gas. Norma IRAM 13474 para gas.",
     "price": 1850,
     "image": "/img/termofusion/gas/codo-90-20mm-amarillo.jpg",
-    "category": "termofusion",
-    "subcategory": "gas"
+    
+    "category": "gas"
   },
   {
     "id": 12,
@@ -104,8 +104,8 @@
     "description": "Conexión en T de polipropileno copolímero para gas (PPR-G) color amarillo de 25mm. Para derivaciones en instalaciones de gas. Fabricada bajo estrictas normas de seguridad para garantizar hermeticidad total.",
     "price": 2700,
     "image": "/img/termofusion/gas/tee-25mm-amarillo.jpg",
-    "category": "termofusion",
-    "subcategory": "gas"
+    
+    "category": "gas"
   },
   {
     "id": 13,
@@ -113,8 +113,8 @@
     "description": "Cupla de unión directa de polipropileno copolímero para gas (PPR-G) color amarillo de 20mm. Para empalme de cañerías de termofusión de gas. Resistente a presiones de red y a la intemperie.",
     "price": 1100,
     "image": "/img/termofusion/gas/cupla-20mm-amarillo.jpg",
-    "category": "termofusion",
-    "subcategory": "gas"
+    
+    "category": "gas"
   },
   {
     "id": 14,
@@ -122,8 +122,8 @@
     "description": "Válvula de corte de bola para sistemas de termofusión de gas de 20mm. Cuerpo de polipropileno copolímero para gas (PPR-G) color amarillo con bola de bronce. Apertura y cierre rápido. Diseño seguro para instalaciones de gas.",
     "price": 3400,
     "image": "/img/termofusion/gas/llave-paso-20mm-amarillo.jpg",
-    "category": "termofusion",
-    "subcategory": "gas"
+    
+    "category": "gas"
   },
   {
     "id": 15,
@@ -131,8 +131,8 @@
     "description": "Cupla mixta de termofusión para gas con inserción metálica rosca macho de 1/2 pulgada. Cuerpo de polipropileno copolímero para gas (PPR-G) color amarillo. Para conexión de cañería de termofusión a medidores o artefactos de gas.",
     "price": 2600,
     "image": "/img/termofusion/gas/cupla-mixta-20-rosca-macho.jpg",
-    "category": "termofusion",
-    "subcategory": "gas"
+    
+    "category": "gas"
   },
   {
     "id": 16,
@@ -140,8 +140,8 @@
     "description": "Codo a 45 grados de polipropileno copolímero para gas (PPR-G) color amarillo de 20mm. Para cambios de dirección en cañerías de termofusión de gas. Fabricado bajo norma IRAM 13474 para gas.",
     "price": 1950,
     "image": "/img/termofusion/gas/codo-45-20mm-amarillo.jpg",
-    "category": "termofusion",
-    "subcategory": "gas"
+    
+    "category": "gas"
   },
   {
     "id": 17,
@@ -149,7 +149,7 @@
     "description": "Conector recto metálico con rosca macho de 1/4 pulgada y salida rápida para manguera de 8mm. Cuerpo de latón niquelado con anillo de liberación azul. Para sistemas de aire comprimido. Presión de trabajo hasta 10 bar.",
     "price": 850,
     "image": "/img/neumatica/conexion-recta-metalica-8mm.jpg",
-    "category": "neumatica"
+    "category": "neumatica"    
   },
   {
     "id": 18,

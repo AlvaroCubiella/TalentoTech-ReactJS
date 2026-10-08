@@ -28,7 +28,7 @@ export function Footer() {
 
             <li className="footer-nav-item">
               <a
-                href="https://instagram.com/tu_usuario"
+                href="https://www.instagram.com/tekmdq/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
