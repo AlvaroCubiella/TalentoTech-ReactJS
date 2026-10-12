@@ -25,7 +25,7 @@ function App() {
           <Route path="/product/:id" element={<ItemDetailContainer />} />
           {/* Pendiente para implementar el filtro por categoria */}
           <Route 
-            path="/products/:subcategory" 
+            path="/products/:category" 
             element={
               <ItemListContainer 
                 titulo={"Accesorios"}
