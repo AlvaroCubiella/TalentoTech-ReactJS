@@ -1,0 +1,32 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.cart-items-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.empty-cart {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.cart-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-actions p {
+  font-size: 2rem;
+  padding: 1rem;
+}

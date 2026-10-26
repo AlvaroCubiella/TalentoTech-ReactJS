@@ -4,12 +4,14 @@ import "./Contact.css"
 export const Contact = () => {
   // Este useState lo uso provisoriamente para mostar un showmodal
   const [showModal, setShowModal] = useState(false)
+  // Declaro las Key para formData
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
 
+  // Actualizo la key (name) con el valor (value) que viene en "e"
   const handleInputChange = (e) => {
     const { name, value } = e.target
     setFormData({
@@ -18,10 +20,10 @@ export const Contact = () => {
     });
   };
 
-  // Me cierra el showModal
+  // Cierra el showModal
   const closeModal = () => {
     setShowModal(false)
-    // Limpiamos el formulario al cerrar el popup
+    // Limpio el formulario al cerrar el popup
     setFormData({ name: "", email: "", message: "" })
   };
 
@@ -46,9 +48,9 @@ export const Contact = () => {
             type="text"
             id="name"
             name="name"
-            value={formData.name}
+            value={formData.name} 
             onChange={handleInputChange}
-            required
+            required 
           />
         </div>
 

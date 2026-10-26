@@ -5,6 +5,7 @@ import { Header } from "./components/Header/Header";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
 import { Contact } from "./components/Contact/Contact";
+import { CartView } from "./components/Cart/CartView";
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
           />
 
           <Route path="/contact" element={<Contact />} />
-          <Route path="/cart" element={<h1>Carrito provisorio</h1>} />
+          <Route path="/cart" element={<CartView />} />
         </Routes>
       </main>
       <Footer />

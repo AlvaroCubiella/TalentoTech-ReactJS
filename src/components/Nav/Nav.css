@@ -26,6 +26,23 @@
     transform 0.2s ease;
 }
 
+.incart{
+  margin-left: 0.4rem;
+
+  width: 20px;
+  height: 20px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  font-size: 0.75;
+  font-weight: bold;
+}
+
 /* Efecto de elevación al pasar el mouse */
 .nav-item a:hover {
   color: var(--primary);

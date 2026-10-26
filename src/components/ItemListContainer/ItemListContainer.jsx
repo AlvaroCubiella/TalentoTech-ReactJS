@@ -66,8 +66,9 @@ export const ItemListContainer = ({ titulo, url }) => {
 
   //ahora que ya no hay error ni loading, puedo renderizar la lista de productos
   return (
-    <section>      
-      <h1>{titulo +' para ' + category}</h1>
+    <section>  
+      {/*Si categori es undefined, entonces solo pongo titulo */}    
+      <h1>{category ? `${titulo} para ${category}` : titulo}</h1>
       {/* le paso a la prop products el estado de products que contiene los datos obtenidos del archivo JSON.
         // muestro la lista de productos en el componente ItemList, que se encargará de renderizar cada producto individualmente. */}
       <ItemList products={products} />

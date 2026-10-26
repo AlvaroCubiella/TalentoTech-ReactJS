@@ -1,8 +1,13 @@
 import "./Nav.css";
 import { Link } from "react-router-dom";
 import { ShoppingCart } from "lucide-react";
+import { useCart } from "../../context/CartContext";
+
 
 export const Nav = () => {
+  // importo el custom Hook que usa el contexto catrContext
+  const {getTotalItems} = useCart()
+  const totalitems = getTotalItems()
   return (
     <nav className="nav-container">
       <ul className="nav-list">
@@ -25,6 +30,7 @@ export const Nav = () => {
           <Link to="/cart" className="cart-link">
             {/* Renderizo el icono con tamaño personalizado */}
             <ShoppingCart size={22} /> 
+            {totalitems>0 && <span className="incart">{totalitems}</span>}
           </Link>
         </li>
       </ul>
