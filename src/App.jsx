@@ -24,7 +24,7 @@ function App() {
           />
           
           <Route path="/product/:id" element={<ItemDetailContainer />} />
-          {/* Pendiente para implementar el filtro por categoria */}
+          {/* Pendiente para implementar el filtro por categoria. YA IMPLEMENTADO */}
           <Route 
             path="/products/:category" 
             element={

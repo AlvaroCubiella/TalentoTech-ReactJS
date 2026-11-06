@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react"
 import { useParams } from "react-router-dom";
 import { ItemDetail } from "../ItemDetail/ItemDetail";
+import { getProductsById } from "../../services/productsService";
 
 export const ItemDetailContainer = () => {
   const params = useParams();
@@ -19,32 +20,8 @@ export const ItemDetailContainer = () => {
     setError(null)
     setLoading(true)
 
-    fetch("/data/products.json")
-      .then((res) => {
-        if (!res.ok) {
-          // Si la respuesta es vacia, lanzo un error
-          throw new Error("Productos no encontrados")
-        }
-        return res.json()
-      })
-      .then((data) => {
-        // AHORA, si no filtro lo que meretona el fetch, estaria obteniendo
-        // todos los datos del json, entonces, debo filtrar lo que realmente me interesa
-
-        // element es el elemento que me retorna el fetch, y lo comparo con el 
-        // id que viene de la url (params.id), me retorna el objeto encontrado
-        // de lo contrario me retorna un Undefine.
-
-        // userParams() siempre devuelve un str, mientras que en el json estan almacenados
-        // como numeros, tonces la comparacion esctricta === sera False. Para solucionarlo
-        // hay que convertir el srg a number
-        const item = data.find(element => element.id === Number(params.id))
-        if (item) {
-          // Actualizo el estado del itemDetail con lo que obtuve del fetch
-          setItemDetail(item)
-          return;
-        }        
-      })
+    getProductsById(params.id)
+      .then((data) => setItemDetail(data))            
       .catch((error) => setError(error.message))
       .finally(() => setLoading(false))
   }, [params.id]

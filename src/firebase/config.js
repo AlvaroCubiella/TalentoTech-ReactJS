@@ -1,9 +1,12 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+//import { getAuth } from "firebase/auth";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+// TODO ESTO deberia ir en un archivo de variables de entorno
 const firebaseConfig = {
   apiKey: "AIzaSyB789ABOg0SPewWxuqNIhxAN2fyONoYpok",
   authDomain: "flowtech-c2f28.firebaseapp.com",
@@ -15,7 +18,13 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
 // Se agrega la exportacion de la base de datos ocmo "db" para no tener 
 // que hacer el getFirestore cada vez que se necesita
 const db = getFirestore(app);
+
+// para el login
+//const auth = getAuth(app);
+
+//export{db, auth};
 export{db};

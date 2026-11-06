@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import {useParams} from "react-router-dom"
 import { ItemList } from "../ItemList/ItemList";
+import { getByCategory, getProducts, getProductsById } from "../../services/productsService"
 
 // A ItemListontainer le añado props para poder darle un poco mas de dinamismo ante los
 // productos y sus titulos. De momento para que esto funcione, deberia estar
 // con dos archivos JSON distintos
-export const ItemListContainer = ({ titulo, url }) => {
+export const ItemListContainer = ({ titulo }) => {  
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -16,38 +17,21 @@ export const ItemListContainer = ({ titulo, url }) => {
     setLoading(true)
     setError(null)
 
-    fetch(url)
-      .then((response) => {
-        // Corroboro si la respuesta del archivo JSON fue exitosa
-        if (!response.ok) {
-          // Si la respuesta no es exitosa, lanzo un error
-          throw new Error("Archivo JSON no encontrado");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        // Si hay una categoria en la URL, filtramos los productos
-        console.log(category)
-        if (category){
-          const filtred = data.filter(
-            (element) => element.category === category
-          );
-          setProducts(filtred)
-        } else {
-          // actualizo el estado de products con los datos obtenidos del archivo JSON
-          setProducts(data);
-          // actualizo el estado de loading a false para indicar que la carga ha finalizado
-        }
-      })
-      .catch((error) => {
-        // Si ocurre un error durante la carga del archivo JSON, actualizo el estado de error con el
-        // mensaje del error y actualizo el estado de loading a false
-        setError(error.message);
-      })
-      .finally(() => {
-        setLoading(false);
-      });
-  }, [url, category]);
+    //fetch(url)
+    //  .then((response) => {
+      //    // Corroboro si la respuesta del archivo JSON fue exitosa
+      //    if (!response.ok) {
+        //      // Si la respuesta no es exitosa, lanzo un error
+        //      throw new Error("Archivo JSON no encontrado");
+        //    }
+        //    return response.json();
+        //  })
+    // getProducts() reemplaza completamente a fetch
+    getByCategory(category)
+      .then((data) => setProducts(data))
+      .catch((error) => setError(error.message))
+      .finally(() => setLoading(false));
+  }, [category]);
 
   useEffect(() => {
     if (category) {
