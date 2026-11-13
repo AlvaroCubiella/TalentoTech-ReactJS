@@ -20,4 +20,6 @@ export const validateProduct = (product) => {
     if (!product.file) {
         errors.file = "Debe cargar una imagen del producto"
     }
+
+    return errors;
 }
