@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import "./ProductSuccess.css"
 
 export const ProductSuccess = () => {
@@ -19,7 +19,7 @@ export const ProductSuccess = () => {
                 {/* <Link className="btn bg-success" to="/admin/products/new">
                     Cargar otro producto
                 <Link> */}
-                <Link className="btn bg-seccess primary" to="/*admin">
+                <Link className="btn bg-seccess primary" to="/admin">
                     Cargar otro producto
                 </Link>
             </div>

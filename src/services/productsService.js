@@ -1,4 +1,4 @@
-import { addDoc, collection, doc, getDoc, getDocs, query, where } from "firebase/firestore"
+import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, query, updateDoc, where } from "firebase/firestore"
 import { db } from "../firebase/config"
 
 
@@ -87,4 +87,39 @@ export const createProduct = async (productData) => {
         throw error
     }
 
+}
+
+// Elimino un producto
+export const deleteProduct = async (id) => {
+
+    try {
+        // creo la referencia al producto que apunta el ID, elq ues e queire borrar
+        const docRef = doc(productsRef, id)
+
+        // Ejecuto el comando de borrar en firebase
+        await deleteDoc(docRef)
+
+        return true;
+    } catch (error) {
+        console.error ("Error al eliminar el producto: ", error)
+        throw error;
+    }
+    
+}
+
+// Actualizar un producto
+export const updateProduct = async (id, updatedData) => {
+    try {
+        // Creamos la referencia al documento específico
+        const docRef = doc(productsRef, id);
+        
+        // Actualizamos solo los campos que vienen en updatedData
+        await updateDoc(docRef, updatedData);
+        
+        console.log("Producto actualizado con éxito");
+        return true;
+    } catch (error) {
+        console.error("Error al actualizar el producto: ", error);
+        throw error;
+    }
 }

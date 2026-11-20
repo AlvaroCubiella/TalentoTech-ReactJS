@@ -67,6 +67,10 @@ function App() {
               element={<ProductFormContainer />}
             />
             <Route 
+              path="products/edit/:id" 
+              element={<ProductFormContainer />} 
+            />
+            <Route 
               path="product/success/:id"
               element={<ProductSuccess />}
             /> 
