@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { ProductFormUI } from "./ProductFormUI"
 import { validateProduct } from "../../../utils/validateProduct"
-import { uploadImage } from "../../../services/uploadimage"
+import { uploadImage } from "../../../services/uploadImage"
 import { createProduct } from "../../../services/productsService"
 import "./ProductFormContainer.css"
 
