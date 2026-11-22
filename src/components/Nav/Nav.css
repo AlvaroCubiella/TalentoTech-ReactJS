@@ -39,7 +39,7 @@
   border-radius: 50%;
   background: var(--primary);
   color: white;
-  font-size: 0.75;
+  font-size: 10px;
   font-weight: bold;
 }
 
@@ -63,4 +63,13 @@
 
 .nav-item a:hover::after {
   width: 100%; /* La línea crece de izquierda a derecha */
+}
+
+.nav-item a.active {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.nav-item a.active::after {
+  width: 100%; /* Hace que la línea de abajo se quede fija */
 }

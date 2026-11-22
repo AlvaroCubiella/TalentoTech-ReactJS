@@ -11,6 +11,7 @@ import { AdminLayout } from "./layouts/AdminLayout";
 import { ProtectedRoute } from "./components/ProtectedRoute/ProtectedRoute";
 import { Login } from "./components/Login/Login";
 import { Dashboard } from "./components/adminComponents/Dashboard/Dashboard";
+import { UsersDashboard } from "./components/adminComponents/Dashboard/UsersDashboard";
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
             {/* Como tiene index, es lo primero que se renderia al ingresar a /admin*/}
             <Route index element={<Navigate to={"dashboard"} />} />
             <Route path="dashboard" element={<Dashboard />} />
+            <Route path="users" element={<UsersDashboard />} />
             <Route 
               path="products/new" 
               element={<ProductFormContainer />}

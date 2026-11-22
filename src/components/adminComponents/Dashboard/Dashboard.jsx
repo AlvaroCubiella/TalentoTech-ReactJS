@@ -57,15 +57,6 @@ export const Dashboard = () => {
         <div className="dashboard">
             <header className="dashboard-header">
                 <h2>Panel de administración</h2>
-
-                <div className="header-actions">
-                    <Link to="/" className="btn btn-secondary bg-success">
-                        Volver a la tienda
-                    </Link>
-                    <button className="btn bg-delete primary" onClick={logout}>
-                        Cerrar sesión
-                    </button>
-                </div>
             </header>
 
             {/* 👇 NUEVO CONTENEDOR GRID: Divide la vista en 2 columnas */}

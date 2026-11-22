@@ -63,3 +63,19 @@
   width: 100%;
   margin-top: 1rem;
 }
+
+/* Da un poco de espacio entre el botón de ingresar y el de volver */
+.login-form .btn-volver {
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    color: var(--text-secondary, #666);
+    border: 1px solid var(--border);
+}
+
+.login-form .btn-volver:hover {
+    background-color: var(--card);
+    color: var(--text);
+}

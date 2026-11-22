@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 import { useAuth } from "../../context/AuthContext"
 import "./Login.css"
 import { useState } from "react"
@@ -62,6 +62,9 @@ export const Login = () => {
             <button className="btn bg-primary" type="submit">
                 Ingresar
             </button>
+            <Link to="/" className="btn btn-secondary btn-volver">
+                Volver a la tienda
+            </Link>
         </form>
     )
 }
